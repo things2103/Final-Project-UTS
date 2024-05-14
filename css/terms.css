@@ -1,0 +1,30 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: #929d92;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section ul {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}
