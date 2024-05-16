@@ -197,6 +197,10 @@ body{
 .swiper-container .movie-title{
     width: 60%;
     margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.194);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
 }
 .swiper-container .movie-title h2{
     font-family: 'Libre Baskerville',sans-serif;
