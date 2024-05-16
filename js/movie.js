@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const moviesSection = document.querySelector(".movies");
     const footerTvSeriesLink = document.querySelector(".tv-series-link");
     const tvSeriesSection = document.querySelector(".tv-series");
-    const footerCoomingSoonLink = document.querySelector(".cooming-soon-link");
-    const coomingsoonSection = document.querySelector(".cooming-soon");
+    const footerComingSoonLink = document.querySelector(".coming-soon-link");
+    const comingsoonSection = document.querySelector(".coming-soon");
 
 
     if (footerMoviesLink && moviesSection) {
@@ -25,13 +25,13 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
         console.error("TV Series link or section not found.");
     }
-    if (footerCoomingSoonLink && coomingsoonSection) {
-        footerCoomingSoonLink.addEventListener("click", function(event) {
+    if (footerComingSoonLink && comingsoonSection) {
+        footerComingSoonLink.addEventListener("click", function(event) {
             event.preventDefault();
-            coomingsoonSection.classList.remove("hidden");
-            coomingsoonSection.scrollIntoView({ behavior: "smooth" });
+            comingsoonSection.classList.remove("hidden");
+            comingsoonSection.scrollIntoView({ behavior: "smooth" });
         });
     } else {
-        console.error("Movies link or section not found.");
+        console.error("Coming soon link or section not found.");
     }
 });
