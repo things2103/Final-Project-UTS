@@ -31,7 +31,12 @@ $('.owl-carousel').owlCarousel({
 })
 
 
-
+$(document).ready(function(){
+  $(".user").click(function(){
+  $(".search-box").toggle();
+  $("input[type='text']").focus();
+});
+});
 
 
 
@@ -47,3 +52,6 @@ close.addEventListener("click", () => {
     nav.style.top="-110%"
 })
 
+
+                            
+  
