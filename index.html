@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/swiper-bundle.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Movie</title>
 </head>
 <body>
@@ -32,9 +33,14 @@
                         </div>
                     </ul>
                     <ul class="user">
-                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <div class="search-box">
+                                <input type="text">
+                                <input type="button" value="search">
+                            </div>
                         <li><i class="fa-solid fa-bell"></i></li>
-                        <li><i class="fa-solid fa-user"></i></li>
+                        <li><a href = "login.html"><i class = "fa-solid fa-user"></i></a>
                     </ul>
                 </div>
             </nav>
@@ -80,21 +86,24 @@
             <div class="swiper-slide slide-2">
                 <div class="swiper-container">
                     <div class="type">
-                        <p>Sci-Fi</p>
+                        <p>Drama</p>
                         <div class="line"></div>
-                        <p>Action</p>
+                        <p>Romance</p>
+                        <div class="line"></div>
+                        <p>Fantasy</p>
                     </div>
                     <div class="movie-title">
-                        <h2>MATRIX RESURRECTION</h2>
-                        <p>Suffering from palpable delusions, burnt-out Thomas Anderson, the award-winning creator of The Matrix (1999) video game series, now relies on potent blue pills to keep his inner demons at bay. Then, amid inexplicable, reality-defying visions, Thomas spots Tiffany, a familiar-looking perfect stranger evoking strange emotions, and his already fragile mental state starts to deteriorate. As Mr Anderson yearns for an explanation while teetering on the brink of depression, once more, he confronts a pressing dilemma and the burden of choice. On the one hand, blissful ignorance guarantees the illusion of safety. On the other hand, the unbearable truth of reality can only mean one thing: the elaborate Matrix goes beyond the limits of imagination. But, somehow, Thomas already knows what he has to do. However, does he want to know how deep the rabbit hole goes?
+                        <h2>My Demon</h2>
+                        <p>Mengisahkan seorang CEO wanita yang mandiri dan berhasil menikah dengan karirnya. Namun segalanya berubah ketika dia terlibat dengan seorang iblis yang sementara kehilangan kekuatannya.
+                           Ia adalah Do Do Hee (Kim Yoo Jung), pewaris dari Mirae Group. Ia menampilkan kepribadian yang arogan dan tegas, tidak percaya pada siapa pun, serta sinis terhadap cinta. Keputusannya untuk terlibat dengan iblis bernama Jeong Gu Won (Song Kang) membawanya ke dalam sebuah pernikahan kontrak yang mengubah secara besar hidupnya.
                         </p>
                     </div>
                     <div class="movie-rating">
                         <div>
-                            <p>IMDb: 5,7</p>
+                            <p>IMDb: 8,0</p>
                         </div>
                         <div>
-                            <p>2 h 28 m</p>
+                            <p>Season 1</p>
                         </div>
                         <div class="rect">
                             <p>18+</p>
@@ -102,61 +111,32 @@
                     </div>
                     <div class="movie-btn">
                         <button class="btn-1">Watch Now</button>
-                        <button class="btn-2">Add List</button>
+                        <button class="btn-2">Add Favorite</button>
                     </div>
                 </div>
             </div>
             <div class="swiper-slide slide-3">
                 <div class="swiper-container">
                     <div class="type">
-                        <p>Adventure</p>
-                        <div class="line"></div>
-                        <p>Action</p>
-                        <div class="line"></div>
-                        <p>Comedy</p>
-                    </div>
-                    <div class="movie-title">
-                        <h2>THOR LOVE AND THUNDER</h2>
-                        <p>Thor: Love and Thunder is a 2022 American superhero film based on Marvel Comics featuring the character Thor. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Thor: Ragnarok (2017) and the 29th film in the Marvel Cinematic Universe (MCU). The film was directed by Taika Waititi, who co-wrote the screenplay with Jennifer Kaytin Robinson, and stars Chris Hemsworth as Thor alongside Christian Bale, Tessa Thompson, Jaimie Alexander, Waititi, Russell Crowe, and Natalie Portman. In the film, Thor attempts to find inner peace, but must return to action and recruit Valkyrie (Thompson), Korg (Waititi), and Jane Foster (Portman)—who is now the Mighty Thor—to stop Gorr the God Butcher (Bale) from eliminating all gods.
-                        </p>
-                    </div>
-                    <div class="movie-rating">
-                        <div>
-                            <p>IMDb: 6,3</p>
-                        </div>
-                        <div>
-                            <p>1 h 58 m</p>
-                        </div>
-                        <div class="rect">
-                            <p>10+</p>
-                        </div>
-                    </div>
-                    <div class="movie-btn">
-                        <button class="btn-1">Watch Now</button>
-                        <button class="btn-2">Add List</button>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide slide-4">
-                <div class="swiper-container">
-                    <div class="type">
-                        <p>Mystery</p>
-                        <div class="line"></div>
-                        <p>Action</p>
-                        <div class="line"></div>
                         <p>Drama</p>
+                        <div class="line"></div>
+                        <p>Romance</p>
+                        <div class="line"></div>
+                        <p>Fantasy</p>
                     </div>
                     <div class="movie-title">
-                        <h2>THE BLUE PALE</h2>
-                        <p>The Pale Blue Eye is a 2022 American mystery thriller film written and directed by Scott Cooper, adapted from the 2003 novel of the same name by Louis Bayard. The film features an ensemble cast that includes Christian Bale, Harry Melling, Gillian Anderson, Lucy Boynton, Charlotte Gainsbourg, Toby Jones, Harry Lawtey, Simon McBurney, Timothy Spall, and Robert Duvall. Its plot follows veteran detective Augustus Landor in 1830 West Point, New York, as he investigates a series of murders at the United States Military Academy with the aid of Edgar Allan Poe, a young military cadet.
+                        <h2>Goblin</h2>
+                        <p>Menceritakan tentang Kim Shin, seorang jenderal perang yang hebat di zaman kuno.
+                        Ia dibunuh oleh raja muda yang cemburu pada kehebatannya. Kim Shin akhirnya menjadi Dokkaebi (Goblin), yang memiliki kehidupan abadi.
+                        Dalam usahanya mencari calon pengantin demi mematahkan kutukannya yang abadi, penjaga jiwa berusia 939 tahun bertemu malaikat maut dan siswa dengan masa lalu yang tragis.
                         </p>
                     </div>
                     <div class="movie-rating">
                         <div>
-                            <p>IMDb: 6,7</p>
+                            <p>IMDb: 8,6</p>
                         </div>
                         <div>
-                            <p>2 h 8 m</p>
+                            <p>16 Episode</p>
                         </div>
                         <div class="rect">
                             <p>18+</p>
@@ -164,7 +144,39 @@
                     </div>
                     <div class="movie-btn">
                         <button class="btn-1">Watch Now</button>
-                        <button class="btn-2">Add List</button>
+                        <button class="btn-2">Add Favorite</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-4">
+                <div class="swiper-container">
+                    <div class="type">
+                        <p>Drama</p>
+                        <div class="line"></div>
+                        <p>Action</p>
+                        <div class="line"></div>
+                        <p>Romance</p>
+                    </div>
+                    <div class="movie-title">
+                        <h2>Descendants Of The Sun</h2>
+                        <p>Kapten Yoo Si-Jin (Song Joong-ki) dan Sersan Mayor Seo Dae-young (Jin Goo) yang berusaha menangkap pencuri sepeda motor bernama Kim Gi-beom. Karena mengalami luka saat terjatuh dari motor, si pencuri diantar oleh dua tentara tersebut ke Rumah Sakit Haesung, tempat Kang Mo-yeon (Song Hye-kyo) bekerja sebagai Dokter.
+                        Rumah sakit Haesung menjadi tempat pertemuan Si-jin dan Mo-yeon untuk kali pertama. Si-jin pun terpesona dengan pembawaan serta kecantikan Mo-yeon. Sayangnya, Mo-yeon tak bisa percaya begitu saja dengan dua tentara tersebut. Terlebih, Si-jin punya panggilan "Big Boss" yang identik dengan pimpinan gangster. Hal itu membuat Mo-yeon curiga jika dua orang (tentara) itu yang justru mengeroyok pasiennya tersebut.
+                        </p>
+                    </div>
+                    <div class="movie-rating">
+                        <div>
+                            <p>IMDb: 8,6</p>
+                        </div>
+                        <div>
+                            <p>16 Episode</p>
+                        </div>
+                        <div class="rect">
+                            <p>18+</p>
+                        </div>
+                    </div>
+                    <div class="movie-btn">
+                        <button class="btn-1">Watch Now</button>
+                        <button class="btn-2">Add Favorite</button>
                     </div>
                 </div>
             </div>
@@ -179,7 +191,11 @@
                     </div>
                     <div class="movie-title">
                         <h2>THE BATMAN</h2>
-                        <p>Street-smart Nathan Drake (Tom Holland) is recruited by seasoned treasure hunter Victor "Sully" Sullivan (Mark Wahlberg) to recover a fortune amassed by Ferdinand Magellan and lost 500 years ago by the House of Moncada. What starts as a heist job for the duo becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada (Antonio Banderas), who believes he and his family are the rightful heirs. If Nate and Sully can decipher the clues and solve one of the world's oldest mysteries, they stand to find $5 billion in treasure and perhaps even Nate's long-lost brother...but only if they can learn to work together.
+                        <p>Selama tahun kedua memerangi kejahatan, Batman mengejar Riddler, seorang pembunuh berantai sadis yang menargetkan tokoh-tokoh politik dan warga elit Kota Gotham. 
+                            Batman berusaha mengungkap korupsi tersembunyi di kota itu dan mempertanyakan keterlibatan keluarganya.
+                            Ia menghubungkan keluarganya sendiri selama penyelidikan, dan dipaksa untuk membuat sekutu baru untuk menangkap Riddler dan membawa koruptor ke pengadilan. 
+                            Batman juga harus menjalin hubungan baru untuk membuka kedok pelakunya.
+                            Ia berusaha membawa keadilan atas penyalahgunaan kekuasaan dan korupsi yang telah lama menjangkiti kota metropolitan itu.
                         </p>
                     </div>
                     <div class="movie-rating">
@@ -195,7 +211,7 @@
                     </div>
                     <div class="movie-btn">
                         <button class="btn-1">Watch Now</button>
-                        <button class="btn-2">Add List</button>
+                        <button class="btn-2">Add Favorite</button>
                     </div>
                 </div>
             </div>
@@ -211,20 +227,23 @@
             <div class="owl-carousel owl-theme">
                 <div class="cards">
                     <div class="card-img">
-                        <img src=".../air mata di ujung sajadah.jpg" alt="">
+                        <img src="../img/popular/airmata.jpg" alt="">
                         <div class="img-title">
                             <h4>6.9</h4>
                             <p>IMDb</p>
                         </div>
                     </div>
                     <div class="card-title">
+                        <a href="airmata diujung sajadah.html">
                         <h3>Air Mata di Ujung Sajadah</h3>
                         <p>Drama</p>
+                        </a>
+                        
                     </div>
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/movies/blackphone.svg" alt="">
+                        <img src="../img/popular/Welcome to samdal-ri.JPG" alt="">
                         <div class="img-title">
                             <h4>8.0</h4>
                             <p>IMDb</p>
@@ -237,7 +256,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/movies/jurassic.svg" alt="">
+                        <img src="../img/popular/Barbie.jpg" alt="">
                         <div class="img-title">
                             <h4>6.8</h4>
                             <p>IMDb</p>
@@ -250,7 +269,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/movies/minions.svg" alt="">
+                        <img src="../img/popular/Gadis Kretek.JPG" alt="">
                         <div class="img-title">
                             <h4>8.2</h4>
                             <p>IMDb</p>
@@ -263,20 +282,20 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/movies/irish.svg" alt="">
+                        <img src="../img/popular/petualangan sherina 2.jpg" alt="">
                         <div class="img-title">
                             <h4>7.2</h4>
                             <p>IMDb</p>
                         </div>
                     </div>
                     <div class="card-title">
-                        <h3>Petualangan Sherina</h3>
+                        <h3>Petualangan Sherina 2</h3>
                         <p>Drama, Adventure, Comedy</p>
                     </div>
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/movies/matrix.svg" alt="">
+                        <img src="../img/popular/My Demon.JPG" alt="">
                         <div class="img-title">
                             <h4>8.0</h4>
                             <p>IMDb</p>
@@ -323,20 +342,22 @@
         <div class="movies-card">
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/blackout.svg" alt="">
+                    <img src="../img/movie/Laskar pelangi.jpg" alt="">
                     <div class="img-title">
                         <h4>7.9</h4>
                         <p>IMDb</p>
                     </div>
                 </div>
                 <div class="card-title">
+                    <a href="laskar-pelangi.html">
                     <h3>Laskar Pelangi</h3>
                     <p>Adventure, Drama, Family</p>
+                    </a>
                 </div>
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/prey.svg" alt="">
+                    <img src="../img/movie/Trolls Band Together Trailer - The Screen Guide.jpg" alt="">
                     <div class="img-title">
                         <h4>6.0</h4>
                         <p>IMDb</p>
@@ -349,7 +370,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/john.svg" alt="">
+                    <img src="../img/movie/Enola Holmes 2 (2022)(1).jpg" alt="">
                     <div class="img-title">
                         <h4>6.8</h4>
                         <p>IMDb</p>
@@ -362,7 +383,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/sonic.svg" alt="">
+                    <img src="../img/movie/Train to busan peninsula.jpg" alt="">
                     <div class="img-title">
                         <h4>5.5</h4>
                         <p>IMDb</p>
@@ -375,7 +396,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/america.svg" alt="">
+                    <img src="../img/movie/The Devil Wears Prada.jpg" alt="">
                     <div class="img-title">
                         <h4>6.9</h4>
                         <p>IMDb</p>
@@ -388,7 +409,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/resident.svg" alt="">
+                    <img src="../img/movie/aadc2.jpg" alt="">
                     <div class="img-title">
                         <h4>7.3</h4>
                         <p>IMDb</p>
@@ -401,7 +422,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/narvik.svg" alt="">
+                    <img src="../img/movie/Dilan 1990 (2018).jpg" alt="">
                     <div class="img-title">
                         <h4>7.0</h4>
                         <p>IMDb</p>
@@ -414,33 +435,33 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/venom.svg" alt="">
+                    <img src="../img/movie/Harry Potter.jpg" alt="">
                     <div class="img-title">
                         <h4>7.3</h4>
                         <p>IMDb</p>
                     </div>
                 </div>
                 <div class="card-title">
-                    <h3>Tenet</h3>
-                    <p>Action, Adventure, Sci-Fi</p>
+                    <h3>Harry Potter</h3>
+                    <p>Family, Adventure, Fantasy</p>
                 </div>
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/tenet.svg" alt="">
+                    <img src="../img/movie/The family plan.jpg" alt="">
                     <div class="img-title">
                         <h4>6.3</h4>
                         <p>IMDb</p>
                     </div>
                 </div>
                 <div class="card-title">
-                    <h3>The Godfather</h3>
-                    <p>Drama</p>
+                    <h3>The Family Plan</h3>
+                    <p>Action, Comedy</p>
                 </div>
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/godfather.svg" alt="">
+                    <img src="../img/movie/Purple Hearts (2022).jpg" alt="">
                     <div class="img-title">
                         <h4>6.7</h4>
                         <p>IMDb</p>
@@ -448,12 +469,12 @@
                 </div>
                 <div class="card-title">
                     <h3>Purple Hearts 2022</h3>
-                    <p>Drama, Musical, Romance</p>
+                    <p>Drama, Romance</p>
                 </div>
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/sheershah.svg" alt="">
+                    <img src="../img/movie/Sewu Dino.jpg" alt="">
                     <div class="img-title">
                         <h4>8.4</h4>
                         <p>IMDb</p>
@@ -466,7 +487,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="../img/movies/eternals.svg" alt="">
+                    <img src="../img/movie/Habibie & Ainun 3(1).jpg" alt="">
                     <div class="img-title">
                         <h4>7.2</h4>
                         <p>IMDb</p>
@@ -491,20 +512,22 @@
             <div class="owl-carousel owl-theme">
                 <div class="cards">
                     <div class="card-img">
-                        <a href="breaking-bad.html"><img src="../img/tv/breaking-bad.svg" alt=""></a>
+                        <img src="../img/series/Hidden Love.JPG" alt=""></a>
                         <div class="img-title">
                             <h4>8.6</h4>
                             <p>IMDb</p>
                         </div>
                     </div>
                     <div class="card-title">
-                        <h3>Hidden Love</h3>
-                        <p>Drama, Romance</p>
+                        <a href="hidden-love.html">
+                            <h3>Hidden Love</h3>
+                            <p>Drama, Romance</p>
+                        </a>
                     </div>
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/tv/got.svg" alt="">
+                        <img src="../img/series/The penthouse .JPG" alt="">
                         <div class="img-title">
                             <h4>7.9</h4>
                             <p>IMDb</p>
@@ -517,7 +540,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/tv/himym.svg" alt="">
+                        <img src="../img/series/Wedding Agreement .JPG" alt="">
                         <div class="img-title">
                             <h4>6.7</h4>
                             <p>IMDb</p>
@@ -530,7 +553,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/tv/friends.svg" alt="">
+                        <img src="../img/series/Go Ahead.JPG" alt="">
                         <div class="img-title">
                             <h4>8.5</h4>
                             <p>IMDb</p>
@@ -543,7 +566,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/tv/wednesday.svg" alt="">
+                        <img src="../img/series/Vincenzo.JPG" alt="">
                         <div class="img-title">
                             <h4>8.4</h4>
                             <p>IMDb</p>
@@ -556,7 +579,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/tv/robot.svg" alt="">
+                        <img src="../img/series/Antares.JPG" alt="">
                         <div class="img-title">
                             <h4>6.4</h4>
                             <p>IMDb</p>
@@ -569,7 +592,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/tv/witcher.svg" alt="">
+                        <img src="../img/series/Kaget Nikah.JPG" alt="">
                         <div class="img-title">
                             <h4>8.0</h4>
                             <p>IMDb</p>
@@ -595,7 +618,7 @@
             <div class="owl-carousel owl-theme">
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/animated/addams.svg" alt="">
+                        <img src="../img/cs/queen of tears poster.jpg" alt="">
                         <div class="img-title">
                             <h4>8.4</h4>
                             <p>IMDb</p>
@@ -608,7 +631,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/animated/dragon.svg" alt="">
+                        <img src="../img/cs/Upgraded (2024) Amazon Prime Movie Download 720p 1080p HD.jpg" alt="">
                         <div class="img-title">
                             <h4>6.1</h4>
                             <p>IMDb</p>
@@ -621,7 +644,7 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/animated/encanto.svg" alt="">
+                        <img src="../img/cs/Film-Siksa-Kubur-Poster.jpg" alt="">
                         <div class="img-title">
                             <h4>7.1</h4>
                             <p>IMDb</p>
@@ -634,20 +657,20 @@
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/animated/incredibles.svg" alt="">
+                        <img src="../img/cs/Тоже Ditto.jpg" alt="">
                         <div class="img-title">
-                            <h4>6.8</h4>
+                            <h4>6.7</h4>
                             <p>IMDb</p>
                         </div>
                     </div>
                     <div class="card-title">
-                        <h3>The First Omen</h3>
-                        <p>Horror, Thriller</p>
+                        <h3>Ditto</h3>
+                        <p>Drama, Fantasy, Romance</p>
                     </div>
                 </div>
                 <div class="cards">
                     <div class="card-img">
-                        <img src="../img/animated/lion.svg" alt="">
+                        <img src="../img/cs/5 Fakta Menarik Film Dua Hati Biru, Punya Alur Cerita Lebih Kompleks.jpg" alt="">
                         <div class="img-title">
                             <h4>8.5</h4>
                             <p>IMDb</p>
@@ -656,6 +679,19 @@
                     <div class="card-title">
                         <h3>Dua Hati Biru</h3>
                         <p>Drama, Romance, Family</p>
+                    </div>
+                </div>  
+                <div class="cards">
+                    <div class="card-img">
+                        <img src="../img/cs/The hunger games.jpg" alt="">
+                        <div class="img-title">
+                            <h4>6.7</h4>
+                            <p>IMDb</p>
+                        </div>
+                    </div>
+                    <div class="card-title">
+                        <h3>The Hunger Games</h3>
+                        <p>Action, Adventure, Drama</p>
                     </div>
                 </div>  
             </div>
@@ -669,14 +705,14 @@
             <h4>Animated Movies</h4>
         </div>
         <div>
-            <h4>Privacy Policy</h4>
-            <h4>Cookie Policy</h4>
-            <h4>Terms of Use</h4>
+            <a href="privacypolicy.html"><h4>Privacy Policy</h4></a>
+            <a href="cookie_policy.html"><h4>Cookie Policy</h4></a>
+            <a href="TermsOf.html"><h4>Terms of Use</h4></a>
         </div>
         <div>
             <h4>Help Center</h4>
-            <h4>Support</h4>
-            <h4>FAQ</h4>
+            <a href="support.html"><h4>Support</h4></a>
+            <a href="faq.html"><h4>FAQ</h4></a>
         </div>
         <div>
             <h4>Follow Us</h4>
@@ -694,5 +730,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="../js/swiper-bundle.min.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/movie.js"></script>
 </body>
 </html>
