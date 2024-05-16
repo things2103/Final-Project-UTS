@@ -36,11 +36,12 @@ header p {
 }
 
 .category {
-    background: #fff;
+    background: #f3f7f5;
     padding: 20px;
     text-align: center;
     width: 30%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .category h2 {
